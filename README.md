@@ -7,36 +7,25 @@
  #### TestDatasets : Set5
 
  ---
+ 
  #### Model Parameters
- -
- -
- -
- -
+- Dataloader : RandomCrop + RandomAugmentation
+- High Resolution Patch : 96
+- Low Resolution Patch : 48
+- batch size : 16 ( 32 in paper, because of restricted memory)  
+- Learning_rate = 2e-4, gamma :  0.5
 
  #### Model
 
 
- #### Loss Function
-
- ---
-
- #### Training
-
-
- #### Testing
-
- ---
-
- #### Contribution
-
- #### Further Study
+ #### Loss Function :  L1_loss
 
  ---
  #### EvalAI Result
  
- - pytorch-nightly, RTX 3090 
+ - pytorch-nightly, RTX 3090 (24GB)
  - Training Time : 2 day 
- - iter : 155,000
+ - iter : 155,000 ( 500,000 in paper )
  - Submit_File : submit.json
  - Checkpoint_path : checkpoints/Classicalx2/155000_Model.pth
    
