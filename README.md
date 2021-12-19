@@ -19,16 +19,17 @@ Liang, J., Cao, J., Sun, G., Zhang, K., Van Gool, L. and Timofte, R., (2021. IEE
  
  ---
  
+ #### Model
+ - TrainDatasets : Flick2K + DIV2K
+ - TestDatasets : Set5
+![346346346346346346](https://user-images.githubusercontent.com/11037567/146691469-e204724c-c571-4c3c-a251-aceabeee9a32.PNG)
+
  #### Model Parameters
 - Dataloader : RandomCrop + RandomAugmentation
 - High Resolution Patch : 96
 - Low Resolution Patch : 48
 - batch size : 16 ( 32 in paper, because of restricted memory)  
 - Learning_rate = 2e-4, gamma :  0.5
-
- #### Model
- - TrainDatasets : Flick2K + DIV2K
- - TestDatasets : Set5
 
  #### Loss Function :  L1_loss
 
