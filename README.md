@@ -1,4 +1,4 @@
-### SwinIR: Image Restoration Using Shifted Window Transformer
+## SwinIR: Image Restoration Using Shifted Window Transformer
 ##### Reference link :  https://github.com/JingyunLiang/SwinIR
  ---
 
