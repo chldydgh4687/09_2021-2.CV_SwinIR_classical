@@ -1,4 +1,8 @@
 ## SwinIR: Image Restoration Using Shifted Window Transformer
+
+Liang, J., Cao, J., Sun, G., Zhang, K., Van Gool, L. and Timofte, R., (2021. IEEE/CVF International Conference on Computer Vision)
+
+---
 ##### Reference link :  https://github.com/JingyunLiang/SwinIR
 ##### Reference Paper : https://arxiv.org/pdf/2108.10257.pdf
 ##### Youtube link : 
